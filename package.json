@@ -1,0 +1,14 @@
+{
+  "name": "glob-match-core",
+  "version": "0.1.0",
+  "description": "Glob to RegExp compiler and matcher: star, question, doublestar, classes. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/glob.test.js",
+    "demo": "node bin/glob.mjs --assert"
+  }
+}
